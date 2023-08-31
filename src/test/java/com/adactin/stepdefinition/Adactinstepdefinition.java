@@ -25,13 +25,13 @@ public class Adactinstepdefinition extends Baseclass {
 
 	@When("user enter the username in the username field")
 	public void user_enter_the_username_in_the_username_field() {
-		inputValue(p.getLaunch().getusername(), "Ramya16697");
+		inputValue(p.getLaunch().getusername(), "Ramya123");
 
 	}
 
 	@When("user ender the password in the password field")
 	public void user_ender_the_password_in_the_password_field() {
-		inputValue(p.getLaunch().getPassword(), "BNGAF4");
+		inputValue(p.getLaunch().getPassword(), "ABC123");
 	}
 
 	@Then("user should click the login and it will be navigate to the search page")
